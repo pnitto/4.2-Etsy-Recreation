@@ -1,0 +1,36 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+body {
+  background-color: lime;
+}
+.main-container {
+ @include span-columns(12);
+}
+.container {
+  @include span-columns(9);
+}
+.pictures {
+  list-style-type: none;
+}
+.item {
+  list-style-type: none;
+}
+ li .item {
+  @include span-columns(3 of 9);
+  list-style-type: none;
+}
+img {
+  width: 227px;
+  height:178px;
+}
+h1 {
+  font-size: 12px;
+}
+.sidebar {
+  @include span-columns(3);
+  max-width: 245px;
+}
+ul {
+  list-style-type: none;
+}
