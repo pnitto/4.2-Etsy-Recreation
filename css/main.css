@@ -7,7 +7,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: lime; }
+  background-color: white; }
 
 .main-container {
   margin-top: 3%;
@@ -72,13 +72,15 @@ ul {
 
 .topnav-links {
   display: inline-block;
-  margin-right: 2%; }
+  margin-right: 2%;
+  margin-top: 1%; }
 
 .topnav-a {
   text-decoration: none; }
 
 .nav {
-  border: 2px solid gray; }
+  border: 2px solid gray;
+  height: 45px; }
 
 .etsy {
   font-size: 40px;
@@ -125,4 +127,11 @@ ul {
   position: absolute;
   top: 42%;
   left: 25.5%;
-  margin-top: -3%; }
+  margin-top: -1%; }
+
+.above-main-content {
+  background-color: #FFFFFF;
+  height: 126px; }
+
+.sidebar-heading {
+  margin-top: 9%; }

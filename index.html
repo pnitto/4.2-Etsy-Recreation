@@ -34,7 +34,9 @@
         <li class="topnav-links"><a class="topnav-a" href="www.google.com">Vintage</a></li>
       </ul>
     </nav>
-    <h4>Show results for:</h4>
+  </div>
+  <div class="below-header">
+    <h4 class="sidebar-heading">Show results for:</h4>
     <div class="sidebar">
       <ul class="sidebar-ul">
         <h5><strong>All Categories</strong></h5>
@@ -66,7 +68,7 @@
     <li class='item'>
       <img src="{{ Images.[0].url_fullxfull }}">
       <h1 class="title">{{title}}</h1>
-      <h5 class="price">{{ price }}</h5>
+      <h5 class="price">${{ price }}</h5>
       <h5>{{Shop.shop_name}}</h5>
 </script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
