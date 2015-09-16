@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Etsy</title>
   <link href="css/main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
   <h1 class="etsy">Etsy</h1>
@@ -11,6 +12,15 @@
     <input class="input"></input>
     <button class="search-button"><strong>Search</strong></button>
   </form>
+  <div class="top-right-icons">
+    <ul class="top-right">
+      <li class="top-right-links"><a href="wwww.google.com">Sell on Etsy</a></li>
+      <li class="top-right-links"><a href="wwww.google.com"><i class="fa fa-home fa-lg"></i></a></li>
+      <li class="top-right-links"><a href="wwww.google.com"><i class="fa fa-heart fa-lg"></i></a></li>
+      <li class="top-right-links"><a href="wwww.google.com">You</a></li>
+      <li class="top-right-links"><a href="wwww.google.com"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
+    </ul>
+  </div>
   <div class="main-container">
     <nav class="nav">
       <ul class="nav-ul">
@@ -24,6 +34,7 @@
         <li class="topnav-links"><a class="topnav-a" href="www.google.com">Vintage</a></li>
       </ul>
     </nav>
+    <h4>Show results for:</h4>
     <div class="sidebar">
       <ul class="sidebar-ul">
         <h5><strong>All Categories</strong></h5>
@@ -44,6 +55,7 @@
         <li><a class="sidebar-links" href="www.google.com">Pet Supplies</a></li>
       </ul>
     </div>
+    <h4 class="whiskey-header">Top categories for "whiskey"</h4>
   <div class="container">
     <ul>
       <li class="item"></li>
@@ -53,7 +65,7 @@
   <script id="entry-template" type="text/x-handlebars-template">
     <li class='item'>
       <img src="{{ Images.[0].url_fullxfull }}">
-      <h1>{{title}}</h1>
+      <h1 class="title">{{title}}</h1>
       <h5 class="price">{{ price }}</h5>
       <h5>{{Shop.shop_name}}</h5>
 </script>
