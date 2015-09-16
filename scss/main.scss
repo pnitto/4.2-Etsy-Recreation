@@ -1,13 +1,16 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$gutter: em(10px);
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
 body {
   background-color: lime;
 }
 .main-container {
+  margin-top: 3%;
  @include span-columns(12);
 }
 .container {
+  margin-top: 5%;
   @include span-columns(9);
 }
 .pictures {
@@ -18,19 +21,46 @@ body {
 }
  li .item {
   @include span-columns(3 of 9);
+  @include omega;
   list-style-type: none;
 }
 img {
   width: 227px;
   height:178px;
+  background-size: cover;
 }
 h1 {
   font-size: 12px;
 }
 .sidebar {
+  border: 2px solid gray;
   @include span-columns(3);
   max-width: 245px;
 }
 ul {
   list-style-type: none;
+}
+.sidebar-links {
+  text-decoration: none;
+}
+.nav-ul {
+  display: inline;
+}
+.topnav-links {
+  display: inline-block;
+  margin-right: 2%;
+}
+.topnav-a{
+  text-decoration: none;
+}
+.nav {
+  border: 2px solid gray;
+}
+.etsy {
+  font-size:40px;
+  color: #E46F31;
+}
+.price {
+  float:right;
+  margin-right: 17%;
 }

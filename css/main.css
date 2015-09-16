@@ -10,18 +10,20 @@ body {
   background-color: lime; }
 
 .main-container {
+  margin-top: 3%;
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 1.0831%;
   width: 100%; }
   .main-container:last-child {
     margin-right: 0; }
 
 .container {
+  margin-top: 5%;
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
+  margin-right: 1.0831%;
+  width: 74.72922%; }
   .container:last-child {
     margin-right: 0; }
 
@@ -34,27 +36,54 @@ body {
 li .item {
   float: left;
   display: block;
-  margin-right: 3.16844%;
-  width: 31.22104%;
+  margin-right: 1.44937%;
+  width: 32.36709%;
+  margin-right: 0;
   list-style-type: none; }
   li .item:last-child {
     margin-right: 0; }
 
 img {
   width: 227px;
-  height: 178px; }
+  height: 178px;
+  background-size: cover; }
 
 h1 {
   font-size: 12px; }
 
 .sidebar {
+  border: 2px solid gray;
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
+  margin-right: 1.0831%;
+  width: 24.18767%;
   max-width: 245px; }
   .sidebar:last-child {
     margin-right: 0; }
 
 ul {
   list-style-type: none; }
+
+.sidebar-links {
+  text-decoration: none; }
+
+.nav-ul {
+  display: inline; }
+
+.topnav-links {
+  display: inline-block;
+  margin-right: 2%; }
+
+.topnav-a {
+  text-decoration: none; }
+
+.nav {
+  border: 2px solid gray; }
+
+.etsy {
+  font-size: 40px;
+  color: #E46F31; }
+
+.price {
+  float: right;
+  margin-right: 17%; }

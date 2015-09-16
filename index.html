@@ -6,10 +6,41 @@
   <link href="css/main.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+  <h1 class="etsy">Etsy</h1>
+  <form type="">
+    <input></input>
+  </form>
   <div class="main-container">
+    <nav class="nav">
+      <ul class="nav-ul">
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Clothing & Accessories</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Jewelry</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Craft Supplies & Tools</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Weddings</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Entertainment</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Home & Living</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Kids & Baby</a></li>
+        <li class="topnav-links"><a class="topnav-a" href="www.google.com">Vintage</a></li>
+      </ul>
+    </nav>
     <div class="sidebar">
-      <ul>
-        <li><a href="www.google.com">Home & Living</li>
+      <ul class="sidebar-ul">
+        <h5><strong>All Categories</strong></h5>
+        <li><a class="sidebar-links" href="www.google.com">Home & Living</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Art & Collectibles</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Weddings</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Clothing</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Jewelry</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Paper & Party Supplies</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Accessories</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Craft Supply & Tools</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Bags & Purses</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Bath & Beauty</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Shoes</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Books, Movies & Music </a></li>
+        <li><a class="sidebar-links" href="www.google.com">Electronics & Accessories</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Toys & Games</a></li>
+        <li><a class="sidebar-links" href="www.google.com">Pet Supplies</a></li>
       </ul>
     </div>
   <div class="container">
@@ -22,8 +53,8 @@
     <li class='item'>
       <img src="{{ Images.[0].url_fullxfull }}">
       <h1>{{title}}</h1>
-      <h5>{{ price }}</h5>
-      </li>
+      <h5 class="price">{{ price }}</h5>
+      <h5>{{Shop.shop_name}}</h5>
 </script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
   <script src="scripts/main.js"></script>
